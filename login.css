@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    width:100vh;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    box-sizing: border-box;
+}
+#main{
+   position: relative;
+   height: 60vh;
+   width: 50vh;
+    background-color: aliceblue;
+     left:600px;
+     top: 200px;
+     background-color: rgba(141, 110, 111, 0.418);
+     border-radius: 50px;
+}
+#Greet{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#Greet h1{
+    font-size: 50px;
+    margin-top: 10px;
+    font-style: initial;
+    color: rgb(255, 255, 255)
+}
+input{
+    height:50px;
+    width: 40vh;
+    border: none;
+    box-shadow: 1px 2px 3px rgba(141, 110, 111, 0.418);
+    background-color: rgba(141, 110, 111, 0.418);
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+label{
+    margin-top: 5px;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+button{
+    margin-top: 20px;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    color:azure;
+    font-size: 20px;
+    cursor: pointer;
+}
+#main a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    margin-top: 14px;
+}
